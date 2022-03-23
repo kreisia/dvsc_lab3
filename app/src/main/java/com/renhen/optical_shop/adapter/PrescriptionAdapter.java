@@ -25,10 +25,13 @@ public class PrescriptionAdapter extends ArrayAdapter<Integer> {
     private List<Integer> states;
     private Cursor cursor;
 
+    //Коммент для второго коммита
     public PrescriptionAdapter(@NonNull Context context, int resource, @NonNull List<Integer> objects, Cursor cursor) {
         super(context, resource, objects);
         this.states = objects;
+
         this.layout = resource;
+
         this.inflater = LayoutInflater.from(context);
         this.cursor = cursor;
     }

@@ -39,7 +39,7 @@ public class GoodsAdapter extends ArrayAdapter<Integer> {
     }
 
     public View getView(int position, View convertView, ViewGroup parent) {
-
+        //this is commit
         View view=inflater.inflate(this.layout, parent, false);
 
         TextView label_id = (TextView) view.findViewById(R.id.label_idGoods);
@@ -71,6 +71,7 @@ public class GoodsAdapter extends ArrayAdapter<Integer> {
             e.printStackTrace();
         }
         finally {
+            //this is commit
             try{
                 if(inputStream!=null)
                     inputStream.close();

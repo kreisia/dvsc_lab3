@@ -54,7 +54,7 @@ public class AddReceptionActivity extends AppCompatActivity {
         db = new OpticalShopDBHelper(this).getReadableDatabase();
 
         final ArrayList<String> service = new ArrayList<>();// this is third
-
+        // we finna head to the future
         try (Cursor cursor = db.query(OpticalShopContract.ServiceEntry.TABLE_NAME,
                 new String[]{OpticalShopContract.ServiceEntry.COLUMN_TITLE},
                 null,

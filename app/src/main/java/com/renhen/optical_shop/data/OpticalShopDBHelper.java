@@ -4,7 +4,7 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.telephony.CarrierConfigManager;
-
+// первый коммит в свою ветку 
 import androidx.annotation.Nullable;
 // Второй коммит в мастер
 import com.renhen.optical_shop.data.OpticalShopContract.*;
@@ -47,7 +47,7 @@ public class OpticalShopDBHelper extends SQLiteOpenHelper {
                 + AttributeEntry.COLUMN_TITLE + " TEXT UNIQUE NOT NULL);";
 
         db.execSQL(SQL_CREATE_ATTRIBUTE_TABLE);
-
+//Вторйо коммит 
         String SQL_CREATE_GOODS_TABLE = "CREATE TABLE IF NOT EXISTS " + GoodsEntry.TABLE_NAME + " ("
                 + GoodsEntry._ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
                 + GoodsEntry.COLUMN_PHOTO_PATH + " TEXT NOT NULL, "

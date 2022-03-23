@@ -20,7 +20,7 @@ import com.renhen.optical_shop.data.OpticalShopDBHelper;
 import java.util.Calendar;
 import java.util.Date;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
+import java.text.SimpleDateFormat; //Date formatter
 
 public class EditProfileActivity extends AppCompatActivity {
 

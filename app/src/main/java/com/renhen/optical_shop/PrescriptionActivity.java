@@ -15,8 +15,8 @@ import java.util.ArrayList;
 
 public class PrescriptionActivity extends AppCompatActivity {
 
-    private ListView listView_pres; // Первый коммит в свою ветку
-    private String userID; // Второй коммит в свою ветку
+    private ListView listView_pres; // Первый коммит
+    private String userID; // Второй коммит
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

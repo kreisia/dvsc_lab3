@@ -21,12 +21,12 @@ import java.io.InputStream;
 import java.util.List;
 
 public class ItemGoodsAdapter extends ArrayAdapter<Integer> {
-
+    // Поля класса ItemGoodsAdapter
     private LayoutInflater inflater;
     private int layout;
     private List<Integer> states;
     private Cursor cursor;
-
+    // Публичный конструктор класса ItemGoodsAdapter
     public ItemGoodsAdapter(@NonNull Context context, int resource, @NonNull List<Integer> objects, Cursor cursor) {
         super(context, resource, objects);
         this.states = objects;

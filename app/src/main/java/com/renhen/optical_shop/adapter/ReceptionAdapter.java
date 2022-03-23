@@ -52,7 +52,7 @@ public class ReceptionAdapter extends ArrayAdapter<Integer> {
         return view;
     }
 
-
+//второй коммит в свою ветку
     private String parseData(String date) {
         SimpleDateFormat spf=new SimpleDateFormat("yyyyMMddhhmmss");
         Date newDate= null;

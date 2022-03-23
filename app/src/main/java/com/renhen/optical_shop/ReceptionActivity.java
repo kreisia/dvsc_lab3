@@ -52,7 +52,7 @@ public class ReceptionActivity extends AppCompatActivity {
             }
         };
 
-        futureList.setOnItemClickListener(receptionClickListener);
+        futureList.setOnItemClickListener(receptionClickListener); //setup listener
     }
 
     @Override

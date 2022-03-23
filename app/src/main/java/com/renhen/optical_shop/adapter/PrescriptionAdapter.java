@@ -55,8 +55,8 @@ public class PrescriptionAdapter extends ArrayAdapter<Integer> {
     }
 
     private String parseData(String date) {
-        SimpleDateFormat spf=new SimpleDateFormat("yyyyMMddhhmmss");
-        Date newDate= null;
+        SimpleDateFormat spf = new SimpleDateFormat("yyyyMMddhhmmss");
+        Date newDate = null;
         try {
             newDate = spf.parse(date);
         } catch (ParseException e) {

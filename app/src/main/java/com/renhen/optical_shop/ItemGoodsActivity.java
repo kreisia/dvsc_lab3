@@ -18,7 +18,7 @@ import com.renhen.optical_shop.data.OpticalShopDBHelper;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
-
+// commit 1
 public class ItemGoodsActivity extends AppCompatActivity {
 
     SQLiteDatabase db;

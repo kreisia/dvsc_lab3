@@ -59,6 +59,7 @@ public class GoodsAdapter extends ArrayAdapter<Integer> {
     }
 
     private void loadImage(String path, ImageView view){
+        //this is commit
         InputStream inputStream = null;
         try{
             inputStream = manager.open(path);

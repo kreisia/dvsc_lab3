@@ -24,7 +24,7 @@ public class ItemGoodsActivity extends AppCompatActivity {
     SQLiteDatabase db;
     ListView listView_ItemGoods;
     String currentID;
-
+// commit 2
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

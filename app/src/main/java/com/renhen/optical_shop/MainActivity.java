@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     TextView lineLogin;
     TextView linePass;
     Button login;
-    Button registration;
+    Button registration;//2
 
     OpticalShopDBHelper mDbHelper;
 

@@ -19,7 +19,7 @@ import java.util.Date;
 import java.util.List;
 
 public class ReceptionAdapter extends ArrayAdapter<Integer> {
-
+    //коммит в мастер ветку
     private LayoutInflater inflater;
     private int layout;
     private List<Integer> states;

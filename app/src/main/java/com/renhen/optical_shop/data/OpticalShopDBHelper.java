@@ -6,7 +6,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.telephony.CarrierConfigManager;
 
 import androidx.annotation.Nullable;
-
+// Второй коммит в мастер
 import com.renhen.optical_shop.data.OpticalShopContract.*;
 // Синкевич первый коммит в мастер
 public class OpticalShopDBHelper extends SQLiteOpenHelper {

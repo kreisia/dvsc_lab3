@@ -19,7 +19,7 @@ public class ActionActivity extends AppCompatActivity {
         userID = intent.getExtras().get("id").toString();
     }
 
-
+    //Second
     public void logoutClicked(View view)
     {
         finish();

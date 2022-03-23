@@ -13,7 +13,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 
 import com.renhen.optical_shop.adapter.ReceptionAdapter;
-import com.renhen.optical_shop.data.OpticalShopDBHelper;
+import com.renhen.optical_shop.data.OpticalShopDBHelper;// import helper
 import com.renhen.optical_shop.dialog.AcceptDeleteReceptionDialog;
 
 import java.text.DateFormat;

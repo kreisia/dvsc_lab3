@@ -69,6 +69,7 @@ public class GoodsAdapter extends ArrayAdapter<Integer> {
             e.printStackTrace();
         }
         finally {
+            //this is commit
             try{
                 if(inputStream!=null)
                     inputStream.close();

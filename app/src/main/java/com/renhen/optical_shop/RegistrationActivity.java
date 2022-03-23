@@ -42,7 +42,7 @@ public class RegistrationActivity extends AppCompatActivity {
 
         mDbHelper = new OpticalShopDBHelper(this);
     }
-
+    // Clicked
     public void birthdateClicked(View view) {
         new DatePickerDialog(RegistrationActivity.this, d,
                 dateAndTime.get(Calendar.YEAR),

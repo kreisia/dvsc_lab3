@@ -58,7 +58,7 @@ public class AddReceptionActivity extends AppCompatActivity {
         try (Cursor cursor = db.query(OpticalShopContract.ServiceEntry.TABLE_NAME,
                 new String[]{OpticalShopContract.ServiceEntry.COLUMN_TITLE},
                 null,
-                null,
+                null, //E go better
                 null,
                 null,
                 OpticalShopContract.ServiceEntry.COLUMN_TITLE)) {

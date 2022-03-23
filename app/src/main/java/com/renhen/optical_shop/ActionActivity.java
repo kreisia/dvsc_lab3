@@ -19,7 +19,7 @@ public class ActionActivity extends AppCompatActivity {
         userID = intent.getExtras().get("id").toString();
     }
 
-
+    //Second
     public void logoutClicked(View view)
     {
         finish();
@@ -34,6 +34,7 @@ public class ActionActivity extends AppCompatActivity {
 
     public void mapViewClicked(View view)
     {
+        //Fourth commit
         Intent intent = new Intent(this, MapsActivity.class);
         startActivity(intent);
     }

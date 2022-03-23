@@ -32,7 +32,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
-
+//this is fourth
 public class AddReceptionActivity extends AppCompatActivity {
 
     SQLiteDatabase db;
@@ -53,12 +53,12 @@ public class AddReceptionActivity extends AppCompatActivity {
         line_datetime = (EditText) findViewById(R.id.editTextTextDate_addReception);
         db = new OpticalShopDBHelper(this).getReadableDatabase();
 
-        final ArrayList<String> service = new ArrayList<>();
-
+        final ArrayList<String> service = new ArrayList<>();// this is third
+        // we finna head to the future
         try (Cursor cursor = db.query(OpticalShopContract.ServiceEntry.TABLE_NAME,
                 new String[]{OpticalShopContract.ServiceEntry.COLUMN_TITLE},
                 null,
-                null,
+                null, //E go better
                 null,
                 null,
                 OpticalShopContract.ServiceEntry.COLUMN_TITLE)) {

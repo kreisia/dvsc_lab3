@@ -49,17 +49,21 @@ public class PrescriptionAdapter extends ArrayAdapter<Integer> {
         new_cursor.moveToPosition(position);
 
         label_number.setText(cursor.getString(new_cursor.getColumnIndex(OpticalShopContract.PrescriptionEntry.COLUMN_NUMBER)));
-        label_issuedByDoctor.setText("Выдан: " + new_cursor.getString(new_cursor.getColumnIndex(OpticalShopContract.DoctorEntry.COLUMN_FIO)));
-        label_data_pres.setText("Дата выдачи: " + parseData(new_cursor.getString(new_cursor.getColumnIndex(OpticalShopContract.ReceptionEntry.COLUMN_DATETIME))));
-        label_description_pres.setText("Описание: " + new_cursor.getString(new_cursor.getColumnIndex(OpticalShopContract.PrescriptionEntry.COLUMN_DETAIL)));
-        label_duration_pres.setText("Действие рецепта: " + new_cursor.getString(new_cursor.getColumnIndex(OpticalShopContract.PrescriptionEntry.COLUMN_DURATION)));
+        label_issuedByDoctor.setText("Выдан: " +
+            new_cursor.getString(new_cursor.getColumnIndex(OpticalShopContract.DoctorEntry.COLUMN_FIO)));
+        label_data_pres.setText("Дата выдачи: " +
+            parseData(new_cursor.getString(new_cursor.getColumnIndex(OpticalShopContract.ReceptionEntry.COLUMN_DATETIME))));
+        label_description_pres.setText("Описание: " +
+            new_cursor.getString(new_cursor.getColumnIndex(OpticalShopContract.PrescriptionEntry.COLUMN_DETAIL)));
+        label_duration_pres.setText("Действие рецепта: " +
+            new_cursor.getString(new_cursor.getColumnIndex(OpticalShopContract.PrescriptionEntry.COLUMN_DURATION)));
 
         return view;
     }
 
     private String parseData(String date) {
-        SimpleDateFormat spf=new SimpleDateFormat("yyyyMMddhhmmss");
-        Date newDate= null;
+        SimpleDateFormat spf = new SimpleDateFormat("yyyyMMddhhmmss");
+        Date newDate = null;
         try {
             newDate = spf.parse(date);
         } catch (ParseException e) {

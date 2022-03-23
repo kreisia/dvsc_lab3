@@ -22,6 +22,7 @@ import java.util.List;
 
 public class GoodsAdapter extends ArrayAdapter<Integer> {
 
+    //this is commit
     private LayoutInflater inflater;
     private int layout;
     private List<Integer> states;
@@ -38,7 +39,7 @@ public class GoodsAdapter extends ArrayAdapter<Integer> {
     }
 
     public View getView(int position, View convertView, ViewGroup parent) {
-
+        //this is commit
         View view=inflater.inflate(this.layout, parent, false);
 
         TextView label_id = (TextView) view.findViewById(R.id.label_idGoods);
@@ -58,6 +59,7 @@ public class GoodsAdapter extends ArrayAdapter<Integer> {
     }
 
     private void loadImage(String path, ImageView view){
+        //this is commit
         InputStream inputStream = null;
         try{
             inputStream = manager.open(path);
@@ -69,6 +71,7 @@ public class GoodsAdapter extends ArrayAdapter<Integer> {
             e.printStackTrace();
         }
         finally {
+            //this is commit
             try{
                 if(inputStream!=null)
                     inputStream.close();

@@ -25,7 +25,7 @@ import java.text.SimpleDateFormat;
 public class EditProfileActivity extends AppCompatActivity {
 
     OpticalShopDBHelper mDbHelper;
-    private String currentID;
+    private String currentID; //bad idea
 
     Calendar dateAndTime = Calendar.getInstance();
     EditText line_birthdate;

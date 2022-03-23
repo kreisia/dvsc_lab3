@@ -8,7 +8,7 @@ import android.telephony.CarrierConfigManager;
 import androidx.annotation.Nullable;
 
 import com.renhen.optical_shop.data.OpticalShopContract.*;
-
+// Синкевич первый коммит в мастер
 public class OpticalShopDBHelper extends SQLiteOpenHelper {
 
     private static final String DATABASE_NAME    = "opticalshop.db";

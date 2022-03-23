@@ -17,7 +17,7 @@ import android.widget.Toast;
 import com.renhen.optical_shop.data.OpticalShopContract;
 import com.renhen.optical_shop.data.OpticalShopDBHelper;
 
-import java.util.Calendar;
+import java.util.Calendar; //import Android calendar
 import java.util.Date;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

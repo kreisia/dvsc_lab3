@@ -65,7 +65,7 @@ public class RegistrationActivity extends AppCompatActivity {
 
     public void continueRegClicked(View view) {
         if (line_password.getText().toString().isEmpty()){
-            Toast toast = Toast.makeText(this, "Вы не ввели пароль",Toast.LENGTH_SHORT);
+            Toast toast = Toast.makeText(this, "Вы не ввели пароль",Toast.LENGTH_SHORT); // Error
             toast.show();
         }
         else if (line_login.toString().isEmpty()){

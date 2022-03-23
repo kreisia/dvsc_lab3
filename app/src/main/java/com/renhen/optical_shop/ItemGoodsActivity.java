@@ -24,7 +24,7 @@ public class ItemGoodsActivity extends AppCompatActivity {
     SQLiteDatabase db;
     ListView listView_ItemGoods;
     String currentID;
-
+// commit 2
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,7 +69,7 @@ public class ItemGoodsActivity extends AppCompatActivity {
             ItemGoodsAdapter adapter = new ItemGoodsAdapter(ItemGoodsActivity.this,R.layout.value_goods_item,list,cursor);
             listView_ItemGoods.setAdapter(adapter);
 
-
+// fourth commit
     }
 
     private void loadImage(String path, ImageView view){

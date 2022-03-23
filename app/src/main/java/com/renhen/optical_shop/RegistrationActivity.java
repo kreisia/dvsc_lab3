@@ -30,6 +30,7 @@ public class RegistrationActivity extends AppCompatActivity {
 
     OpticalShopDBHelper mDbHelper;
 
+    // Create
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -1,4 +1,4 @@
-package com.renhen.optical_shop;
+package com.renhen.optical_shop; // package name
 
 import androidx.appcompat.app.AppCompatActivity;
 

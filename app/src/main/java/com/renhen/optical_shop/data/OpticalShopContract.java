@@ -5,7 +5,7 @@ import android.provider.BaseColumns;
 import java.sql.Date;
 
 public class OpticalShopContract {
-
+    //Первый комментарий в main
     private OpticalShopContract(){
     }
 

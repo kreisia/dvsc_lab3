@@ -15,7 +15,7 @@ import java.util.ArrayList;
 
 public class PrescriptionActivity extends AppCompatActivity {
 
-    private ListView listView_pres;
+    private ListView listView_pres; // Первый коммит
     private String userID;
 
     @Override

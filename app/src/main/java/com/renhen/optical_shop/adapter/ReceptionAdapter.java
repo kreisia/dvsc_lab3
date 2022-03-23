@@ -24,7 +24,7 @@ public class ReceptionAdapter extends ArrayAdapter<Integer> {
     private int layout;
     private List<Integer> states;
     private Cursor cursor;
-
+//первый коммит в свою ветку
     public ReceptionAdapter(@NonNull Context context, int resource, @NonNull List<Integer> objects, Cursor cursor) {
         super(context, resource, objects);
         this.states = objects;
@@ -52,7 +52,7 @@ public class ReceptionAdapter extends ArrayAdapter<Integer> {
         return view;
     }
 
-
+//второй коммит в свою ветку
     private String parseData(String date) {
         SimpleDateFormat spf=new SimpleDateFormat("yyyyMMddhhmmss");
         Date newDate= null;

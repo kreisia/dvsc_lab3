@@ -34,6 +34,7 @@ public class ActionActivity extends AppCompatActivity {
 
     public void mapViewClicked(View view)
     {
+        //Fourth commit
         Intent intent = new Intent(this, MapsActivity.class);
         startActivity(intent);
     }

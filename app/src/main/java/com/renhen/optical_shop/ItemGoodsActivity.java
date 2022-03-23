@@ -47,7 +47,7 @@ public class ItemGoodsActivity extends AppCompatActivity {
             ImageView imageView = (ImageView) findViewById(R.id.imageView_ItemGoods);
 
             cursor.moveToNext();
-            loadImage(cursor.getString(cursor.getColumnIndex(OpticalShopContract.GoodsEntry.COLUMN_PHOTO_PATH)),imageView);
+    // commit 3        loadImage(cursor.getString(cursor.getColumnIndex(OpticalShopContract.GoodsEntry.COLUMN_PHOTO_PATH)),imageView);
             label_title.setText(cursor.getString(cursor.getColumnIndex(OpticalShopContract.GoodsEntry.COLUMN_TITLE)));
             label_description.setText(cursor.getString(cursor.getColumnIndex(OpticalShopContract.GoodsEntry.COLUMN_DESCRIPTION)));
 

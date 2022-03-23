@@ -18,7 +18,7 @@ import com.renhen.optical_shop.data.OpticalShopContract.UserEntry;
 import com.renhen.optical_shop.data.OpticalShopDBHelper;
 
 import java.util.Calendar;
-
+//Class
 public class RegistrationActivity extends AppCompatActivity {
 
     Calendar dateAndTime = Calendar.getInstance();
@@ -30,6 +30,7 @@ public class RegistrationActivity extends AppCompatActivity {
 
     OpticalShopDBHelper mDbHelper;
 
+    // Create
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

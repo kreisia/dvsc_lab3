@@ -53,7 +53,7 @@ public class AddReceptionActivity extends AppCompatActivity {
         line_datetime = (EditText) findViewById(R.id.editTextTextDate_addReception);
         db = new OpticalShopDBHelper(this).getReadableDatabase();
 
-        final ArrayList<String> service = new ArrayList<>();
+        final ArrayList<String> service = new ArrayList<>();// this is third
 
         try (Cursor cursor = db.query(OpticalShopContract.ServiceEntry.TABLE_NAME,
                 new String[]{OpticalShopContract.ServiceEntry.COLUMN_TITLE},

@@ -19,7 +19,7 @@ import com.renhen.optical_shop.data.OpticalShopContract;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
-
+// Публичный класс ItemGoodsAdapter расширающий ArrayAdapter<Integer>
 public class ItemGoodsAdapter extends ArrayAdapter<Integer> {
 
     private LayoutInflater inflater;

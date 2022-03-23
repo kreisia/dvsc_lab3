@@ -32,7 +32,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
-
+//this is fourth
 public class AddReceptionActivity extends AppCompatActivity {
 
     SQLiteDatabase db;
@@ -58,7 +58,7 @@ public class AddReceptionActivity extends AppCompatActivity {
         try (Cursor cursor = db.query(OpticalShopContract.ServiceEntry.TABLE_NAME,
                 new String[]{OpticalShopContract.ServiceEntry.COLUMN_TITLE},
                 null,
-                null,
+                null, //E go better
                 null,
                 null,
                 OpticalShopContract.ServiceEntry.COLUMN_TITLE)) {

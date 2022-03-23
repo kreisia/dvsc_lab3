@@ -34,7 +34,7 @@ public class ItemGoodsAdapter extends ArrayAdapter<Integer> {
         this.inflater = LayoutInflater.from(context);
         this.cursor = cursor;
     }
-
+    // Публичный метод getView
     public View getView(int position, View convertView, ViewGroup parent) {
 
         View view=inflater.inflate(this.layout, parent, false);

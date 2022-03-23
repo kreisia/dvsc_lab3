@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         login =         (Button)    findViewById(R.id.btn_login);
         registration =  (Button)    findViewById(R.id.btn_registration);
 
-        mDbHelper = new OpticalShopDBHelper(this);
+        mDbHelper = new OpticalShopDBHelper(this); //4
     }
 
     public void loginClicked(View view) {

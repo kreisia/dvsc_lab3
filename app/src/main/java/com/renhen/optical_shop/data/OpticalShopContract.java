@@ -35,7 +35,7 @@ public class OpticalShopContract {
         public final static String _ID = BaseColumns._ID;
         public final static String COLUMN_TITLE = "title";
     }
-
+    //Второй коммит в main
     public static final class ProvideEntry implements BaseColumns {
         public final static String TABLE_NAME = "provide";
 

@@ -32,7 +32,7 @@ public class ReceptionAdapter extends ArrayAdapter<Integer> {
         this.inflater = LayoutInflater.from(context);
         this.cursor = cursor;
     }
-
+//второй коммит в мастер ветку
     public View getView(int position, View convertView, ViewGroup parent) {
 
         View view=inflater.inflate(this.layout, parent, false);

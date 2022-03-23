@@ -22,6 +22,7 @@ import java.util.List;
 
 public class GoodsAdapter extends ArrayAdapter<Integer> {
 
+    //this is commit
     private LayoutInflater inflater;
     private int layout;
     private List<Integer> states;
@@ -58,6 +59,7 @@ public class GoodsAdapter extends ArrayAdapter<Integer> {
     }
 
     private void loadImage(String path, ImageView view){
+        //this is commit
         InputStream inputStream = null;
         try{
             inputStream = manager.open(path);

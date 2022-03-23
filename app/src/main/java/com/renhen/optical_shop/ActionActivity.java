@@ -27,6 +27,7 @@ public class ActionActivity extends AppCompatActivity {
 
     public void editUserClicked(View view)
     {
+        //Third commit
         Intent intent = new Intent(this, EditProfileActivity.class);
         intent.putExtra("id", userID);
         startActivity(intent);

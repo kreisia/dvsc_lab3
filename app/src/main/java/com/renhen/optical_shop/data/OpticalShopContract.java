@@ -20,7 +20,7 @@ public class OpticalShopContract {
         public final static String COLUMN_PASSWORD      = "password";
 
     }
-
+    //Первый коммит в мою ветку
     public static final class OpticalShopEntry implements BaseColumns {
         public final static String TABLE_NAME = "optical_shop";
 
@@ -60,7 +60,7 @@ public class OpticalShopContract {
         public final static String COLUMN_FK_DOCTOR = "fk_doctor_id";
         public final static String COLUMN_FK_USER   = "fk_user_id";
     }
-
+    //Второй коммит в мою ветку
     public static final class PrescriptionEntry implements BaseColumns {
         public final static String TABLE_NAME = "prescription";
 

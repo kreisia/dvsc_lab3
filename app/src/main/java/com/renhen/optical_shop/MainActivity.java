@@ -16,12 +16,12 @@ import com.renhen.optical_shop.data.OpticalShopDBHelper;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView lineLogin;
+    TextView lineLogin; //3
     TextView linePass;
     Button login;
     Button registration;//2
 
-    OpticalShopDBHelper mDbHelper;
+    OpticalShopDBHelper mDbHelper; //1
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

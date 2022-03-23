@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     Button login;
     Button registration;
 
-    OpticalShopDBHelper mDbHelper;
+    OpticalShopDBHelper mDbHelper; //1
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

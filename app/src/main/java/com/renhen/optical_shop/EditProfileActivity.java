@@ -17,7 +17,7 @@ import android.widget.Toast;
 import com.renhen.optical_shop.data.OpticalShopContract;
 import com.renhen.optical_shop.data.OpticalShopDBHelper;
 
-import java.util.Calendar;
+import java.util.Calendar; //import Android calendar
 import java.util.Date;
 import java.text.ParseException;
 import java.text.SimpleDateFormat; //Date formatter
@@ -25,7 +25,7 @@ import java.text.SimpleDateFormat; //Date formatter
 public class EditProfileActivity extends AppCompatActivity {
 
     OpticalShopDBHelper mDbHelper;
-    private String currentID;
+    private String currentID; //bad idea
 
     Calendar dateAndTime = Calendar.getInstance();
     EditText line_birthdate;

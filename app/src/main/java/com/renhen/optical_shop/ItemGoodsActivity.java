@@ -18,13 +18,13 @@ import com.renhen.optical_shop.data.OpticalShopDBHelper;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
-
+// commit 1
 public class ItemGoodsActivity extends AppCompatActivity {
 
     SQLiteDatabase db;
     ListView listView_ItemGoods;
     String currentID;
-
+// commit 2
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,7 +47,7 @@ public class ItemGoodsActivity extends AppCompatActivity {
             ImageView imageView = (ImageView) findViewById(R.id.imageView_ItemGoods);
 
             cursor.moveToNext();
-            loadImage(cursor.getString(cursor.getColumnIndex(OpticalShopContract.GoodsEntry.COLUMN_PHOTO_PATH)),imageView);
+    // commit 3        loadImage(cursor.getString(cursor.getColumnIndex(OpticalShopContract.GoodsEntry.COLUMN_PHOTO_PATH)),imageView);
             label_title.setText(cursor.getString(cursor.getColumnIndex(OpticalShopContract.GoodsEntry.COLUMN_TITLE)));
             label_description.setText(cursor.getString(cursor.getColumnIndex(OpticalShopContract.GoodsEntry.COLUMN_DESCRIPTION)));
 
@@ -69,7 +69,7 @@ public class ItemGoodsActivity extends AppCompatActivity {
             ItemGoodsAdapter adapter = new ItemGoodsAdapter(ItemGoodsActivity.this,R.layout.value_goods_item,list,cursor);
             listView_ItemGoods.setAdapter(adapter);
 
-
+// fourth commit
     }
 
     private void loadImage(String path, ImageView view){

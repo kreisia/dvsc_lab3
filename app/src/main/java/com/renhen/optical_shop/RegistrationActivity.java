@@ -18,7 +18,7 @@ import com.renhen.optical_shop.data.OpticalShopContract.UserEntry;
 import com.renhen.optical_shop.data.OpticalShopDBHelper;
 
 import java.util.Calendar;
-
+//Class
 public class RegistrationActivity extends AppCompatActivity {
 
     Calendar dateAndTime = Calendar.getInstance();
@@ -30,6 +30,7 @@ public class RegistrationActivity extends AppCompatActivity {
 
     OpticalShopDBHelper mDbHelper;
 
+    // Create
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,7 +43,7 @@ public class RegistrationActivity extends AppCompatActivity {
 
         mDbHelper = new OpticalShopDBHelper(this);
     }
-
+    // Clicked
     public void birthdateClicked(View view) {
         new DatePickerDialog(RegistrationActivity.this, d,
                 dateAndTime.get(Calendar.YEAR),
@@ -65,7 +66,7 @@ public class RegistrationActivity extends AppCompatActivity {
 
     public void continueRegClicked(View view) {
         if (line_password.getText().toString().isEmpty()){
-            Toast toast = Toast.makeText(this, "Вы не ввели пароль",Toast.LENGTH_SHORT);
+            Toast toast = Toast.makeText(this, "Вы не ввели пароль",Toast.LENGTH_SHORT); // Error
             toast.show();
         }
         else if (line_login.toString().isEmpty()){

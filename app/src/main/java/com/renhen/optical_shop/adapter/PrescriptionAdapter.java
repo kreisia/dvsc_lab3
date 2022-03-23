@@ -34,7 +34,7 @@ public class PrescriptionAdapter extends ArrayAdapter<Integer> {
     }
     public View getView(int position, View convertView, ViewGroup parent) {
 
-        View view=inflater.inflate(this.layout, parent, false);
+        View view = inflater.inflate(this.layout, parent, false);
 
         TextView label_number = (TextView) view.findViewById(R.id.label_number_pres);
         TextView label_issuedByDoctor = (TextView) view.findViewById(R.id.label_issuedByDoctor_pres);

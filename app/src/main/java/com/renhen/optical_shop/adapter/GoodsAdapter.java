@@ -22,6 +22,7 @@ import java.util.List;
 
 public class GoodsAdapter extends ArrayAdapter<Integer> {
 
+    //this is commit
     private LayoutInflater inflater;
     private int layout;
     private List<Integer> states;

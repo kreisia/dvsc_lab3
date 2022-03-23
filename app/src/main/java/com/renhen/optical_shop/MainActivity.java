@@ -16,7 +16,7 @@ import com.renhen.optical_shop.data.OpticalShopDBHelper;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView lineLogin;
+    TextView lineLogin; //3
     TextView linePass;
     Button login;
     Button registration;
